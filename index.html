@@ -4,109 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LTKwazii Fan Website</title>
+  <!-- Include Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Include custom CSS -->
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-      line-height: 1.5;
-    }
-    header {
-      background-color: #007bff;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 18px;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
+    .header {
+      background-color: #f8f9fa;
       padding: 20px;
     }
 
-    h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
+    .hero {
+      background-color: #fafafa;
+      padding: 40px;
+    }
+
+    .about {
+      background-color: #f8f9fa;
+      padding: 40px;
     }
 
     .love-story {
-      background-color: #fff;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 5px;
+      background-color: #fafafa;
+      padding: 40px;
     }
 
-    .love-story p {
-      margin-bottom: 10px;
+    .footer {
+      background-color: #f8f9fa;
+      padding: 40px;
     }
 
-    .love-story .highlight {
-      font-weight: bold;
-      color: #007bff;
+    .text-primary {
+      font-family: 'Comic Sans MS', cursive;
     }
 
-    .contact {
-      background-color: #f5f5f5;
-      padding: 20px;
-      text-align: center;
+    .img-circle {
+      border-radius: 50%;
     }
 
-    .contact h2 {
-      margin-bottom: 20px;
+    .animate__animated.animate__fadeIn {
+      animation-duration: 2s;
+      animation-name: fadeIn;
     }
 
-    .contact p {
-      margin-bottom: 10px;
-    }
-
-    footer {
-      background-color: #007bff;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>LTKwazii Fan Website (also this is not fucking serious if u couldnt tell already)</h1>
-    <p>A Tribute to the Cat Pirate</p>
-  </header>
   <div class="container">
-    <!-- Love story -->
-    <div class="love-story">
-      <h2>The Epic Love Story of LTKwazii and OctoSplash</h2>
-      <p>Once upon a time, in the vast oceans, LTKwazii, the brave cat pirate, embarked on a thrilling adventure that would change his life forever. While sailing the deep blue sea, he encountered a beautiful OctoSplash, whose handsomeness (is taht even a word) and enchanting presence captured his heart.</p>
-      <p>Their encounter was a twist of fate, as LTKwazii rescued the mermaid from the clutches of a treacherous sea serpent. From that moment on, their destinies became intertwined, and an extraordinary love story unfolded.</p>
-      <p>As LTKwazii and OctoSplash spent time together, they discovered their shared love for adventure, the sea, and the thrill of discovering hidden treasures. They sailed to uncharted territories, braved dangerous storms, and encountered mythical creatures, all while cherishing their bond.</p>
-      <p>With each passing day, their love deepened, defying the boundaries between their worlds. LTKwazii, asked OctoSplash to join his cat pirate crew and bring joy and warmth to LTKwazii's pirate crew.</p>
-      <p>Their love story became legendary, inspiring sailors and dreamers alike. It was a tale of two souls from different worlds, bound together by a love that transcended all obstacles and united them on a remarkable journey.</p>
-      <p>And so, the love story of LTKwazii and OctoSplash continues, as they explore the vast seas, hand in paw, creating a legacy that would be remembered for eternity.</p>
-    </div>
-    <div class="contact">
-      <h2>Contact LTKwazii Fan Club</h2>
-      <p>If you have any questions, fan art, or love letters for LTKwazii and OctoSplash, feel free to get in touch with us.</p>
-      <p>Email: kwazilovers@gmail.com</p>
-      <p>Phone: +48 420 444 567</p>
-    </div>
+    <header class="header">
+      <h1 class="text-center">LTKwazii Fan Website (aka octo and gaba messing around with chat gpt at 4 am)</h1>
+      <p class="text-center">A Tribute to the Cat Pirate</p>
+    </header>
+
+    <section class="hero">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-primary">Welcome to the LTKwazii Fan Website</h2>
+          <p class="mt-3">Ahoy there! I'm OctoSplash01, and this website is dedicated to the legendary cat pirate, LTKwazii. Prepare to set sail on exciting adventures with LTKwazii as we explore the seven seas!</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://i.pinimg.com/originals/bd/7b/b1/bd7bb1c94df2d6ea36c5b45606fa0012.png" alt="LTKwazii" class="img-fluid rounded-circle animate__animated animate__fadeIn">
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-primary">About LTKwazii</h2>
+          <p class="mt-3">LTKwazii is a fearless feline who roams the high seas, searching for hidden treasures and battling formidable foes. With a trusty cutlass in paw and a mischievous gleam in his eyes, LTKwazii is the most renowned pirate in all of cat-dom!</p>
+          <p class="mt-3">Join LTKwazii on his epic adventures as he encounters sea monsters, explores secret islands, and outwits rival pirates. With his cunning skills and quick reflexes, LTKwazii always emerges victorious!</p>
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-primary">Skills</h2>
+          <ul class="mt-3">
+            <li>Mastery of swordplay</li>
+            <li>Expert navigator</li>
+            <li>Ability to climb rigging with ease</li>
+            <li>Sharp senses to spot hidden treasures</li>
+            <li>Feline agility and speed</li>
+          </ul>
+          <h2 class="text-primary mt-4">Achievements</h2>
+          <ul class="mt-3">
+            <li>Sailed the treacherous waters of the Bermuda Triangle</li>
+            <li>Discovered the lost city of Atlantis</li>
+            <li>Defeated the Kraken single-pawedly</li>
+            <li>Found the legendary Cat's Eye Diamond</li>
+            <li>Become the captain of the infamous ship, "The Meowty Pearl"</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="love-story">
+      <h2 class="text-primary">LTKwazii's Love Story</h2>
+      <p class="mt-3">Once upon a time, amidst the vast blue ocean, LTKwazii met a charming and adventurous cat named Luna. Her sleek fur and sparkling eyes captured LTKwazii's heart from the moment he laid eyes on her.</p>
+      <p class="mt-3">Their first encounter took place on a secluded tropical island. The sun painted the sky with shades of orange and pink as Luna gracefully leaped from tree to tree. LTKwazii, drawn to her captivating spirit, approached Luna with a friendly meow.</p>
+      <p class="mt-3">Their journey together was filled with thrilling escapades and endless laughter. Luna's wit matched LTKwazii's daring nature, and they formed an unbreakable bond that sailed through stormy seas and calm waters alike.</p>
+      <p class="mt-3">As the moon rose high in the night sky, LTKwazii and Luna sat side by side, gazing at the stars. With a gentle purr, LTKwazii whispered, "Luna, my heart sways like the ocean waves for you. Will you be my first mate for eternity?"</p>
+      <p class="mt-3">Luna's eyes sparkled, reflecting the shimmering moonlight. "LTKwazii, my brave pirate, I would sail through endless adventures with you. Let our love be as boundless as the sea and as everlasting as the stars above," Luna replied with a tender meow.</p>
+      <p class="mt-3">And so, LTKwazii and Luna set sail together, sharing a love that would forever echo in the hearts of all who heard their legendary tale.</p>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 LTKwazii Fan Website. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <p>Made with ❤️ by CHAT GPT MAN</p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p class="text-muted">Credits: 🦴 Did you know that a skeleton went to the party alone because he had no body to go with him? 🦴</p>
+        <p class="text-muted">Credits: 🦴 Why did the skeleton start a band? Because he had plenty of backbone! 🦴</p>
+        <p class="text-muted">Credits: 🦴 How did the skeleton know it was going to rain? He could feel it in his bones! 🦴</p>
+      </div>
+    </footer>
   </div>
-  <footer>
-    <p>&copy; 2023 LTKwazii Fan Website. All rights reserved.</p>
-    <p>Made with ❤️ by gabagool</p>
-  </footer>
+
+  <!-- Include Bootstrap 5 JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
